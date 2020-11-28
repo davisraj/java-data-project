@@ -1,0 +1,14 @@
+spring:
+    kafka:
+      consumer:
+         bootstrap-servers: localhost:9092
+         group-id: cardTransactionGrpId
+         auto-offset-reset: earliest
+         topic: card_transaction
+      producer:
+         bootstrap-servers: localhost:9092
+         topic1: card_transaction
+         topic2: card_transaction_alert
+         
+
+ 
